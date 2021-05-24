@@ -191,7 +191,21 @@ p{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 }
 
+/* Lenguajes */
 
+.lenguajes{
+    text-align: center;
+    
+}
+
+.lenguajes img{
+    width: 100px;
+    
+}
+
+.lenguajes img:hover{
+    width: 150;
+}
 
 /* FOOTER */
 
