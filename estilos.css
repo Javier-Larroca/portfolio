@@ -186,9 +186,8 @@ p{
 }
 
 .card{
-    border-radius: 4px;
-    background-color: green;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    border-radius: 500px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /* Lenguajes */
@@ -200,11 +199,12 @@ p{
 
 .lenguajes img{
     width: 100px;
-    
+    transition: all 0.3s linear;
 }
 
 .lenguajes img:hover{
-    width: 150;
+    width: 150PX;
+
 }
 
 /* FOOTER */
