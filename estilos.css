@@ -175,13 +175,14 @@ p{
 /* PROYECTOS */
 
 .proyects img{
-    width: 150px;
+    width: 300px;
 }
 
 .proyects h3{
     font-size: 1.7em;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .card{
