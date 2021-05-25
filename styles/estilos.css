@@ -1,17 +1,29 @@
 /* BODY */
-@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,100&display=swap');
 
 body {
-    font-family: georgia, times, serif;
-    color: #333;
+    color: #212121
     font-size: 1.2rem;
     line-height: 1.4em;
     margin: 0;
 }
 
+.main {
+    padding-top: 10rem;
+}
+
+.container {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 90%;
+    max-width: 850px 0;
+    margin: 0 auto;
+}
+
+
 h1{
     line-height: 1.3em;
     font-size: 2rem;
+    margin-left: 0.5em;
 }
 
 h2{
@@ -19,18 +31,15 @@ h2{
     padding-bottom: 1.5em;
 }
 
+
+h6{
+    
+}
+
 p{
     margin-bottom: 1.6em;
+    font-size: 1.01rem;
 }
-
-.container {
-    width: 90%;
-    max-width: 850px 0;
-    margin: 0 auto;
-}
-
-
-
 
 /* HEADER */
 
@@ -41,8 +50,8 @@ p{
 }
 
 .header{
-    background: #333;
-    color: white;
+    background: #000;
+    color: #c8c6a7;
     padding: 1rem 0;
 
     position: fixed;
@@ -53,7 +62,7 @@ p{
 }
 
 .header a{
-    color: white;
+    color: #c8c6a7;
     text-decoration: none;
 }
 
@@ -67,13 +76,6 @@ p{
 .menu-icon {
     display: none;
 }
-
-/*
-.logo {
-    letter-spacing: 15px;
-    font-size: 1.3em;
-}
-*/
 
 .circular-square {
     border-radius: 50%;
@@ -102,9 +104,6 @@ p{
                 font-size: 22px;
             }
 
-.main {
-    padding-top: 10rem;
-}
 
 
 @media only screen and (max-width: 767px){
@@ -146,7 +145,7 @@ p{
 
 }
 
-/* Quien soy */
+/* Hola Mundo */
 
 .bienvenidos{
     display: flex;
@@ -166,39 +165,11 @@ p{
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    .bienvenidos ul li p{
+        font-size: 1.18em;
+    }
   
-
-.quiensoy{
-    width:100%;
-    height:100%;
-}
-
-.quiensoy ul{
-    float:left;
-    width:20rem;
-    height:22rem;
-    margin:5px;
-    overflow: hidden;
-    object-fit: contain;
-    background-image:url(https://scontent.faep17-1.fna.fbcdn.net/v/t1.6435-9/191119199_4548027071893973_7222316364479701428_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=MU3-4kzi0XMAX_WRqk6&_nc_ht=scontent.faep17-1.fna&oh=77faf37a3764dde61b76f9f495b21878&oe=60D1D381);
-    background-size:contain;
-    background-position: center;
-}
-
-.descquiensoy{
-    font-family: 'KoHo', sans-serif;
-    height:25rem;
-    color: black;
-    line-height: 1.2em;
-    overflow: hidden;
-    background-size: cover;
-    text-align: justify;
-}
-
-.descquiensoy h1{
-    text-align: center;
-}
-
 /* Proyectos */
 
 .proyects img{
@@ -210,6 +181,14 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
+}
+
+.proyects h6{
+    font-size: 1.3em;
+}
+
+.proyects a{
+    text-decoration:none;
 }
 
 .card{
@@ -238,6 +217,9 @@ p{
     text-align: center;
 }
 
+.estudios h6{
+    font-size: 1.3em;        
+}
 .estudios ul{
     margin: 0;
     padding: 0;
@@ -254,6 +236,7 @@ p{
 .estudios img{
     width: 150px;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /* Experiencia */
@@ -277,8 +260,13 @@ p{
         list-style: none;
         display: flex;
     }
+    .trabajo h5{
+        padding-left: 0.8em;
+        font-size: 1.4em;  
+    }
     .trabajo h6{
         padding-left: 1em;
+        font-size: 1.15em;        
     }
     .trabajo p{
         padding-left: 1em;
@@ -296,7 +284,7 @@ footer{
     height: auto;
     width: 100vw;
     font-family: "Open Sans";
-    padding-top: 40px;
+    padding-top: 20px;
     color: #fff;
 }
 
