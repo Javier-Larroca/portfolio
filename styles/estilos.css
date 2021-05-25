@@ -30,6 +30,8 @@ p{
 }
 
 
+
+
 /* HEADER */
 
 .estiloHeader {
@@ -146,8 +148,27 @@ p{
 
 /* Quien soy */
 
+.bienvenidos{
+    display: flex;
+}
+
+.bienvenidos img{
+    width: 370px;
+}
+    .bienvenidos ul{
+        margin-left: 0px;
+        padding: 1em;
+        list-style: none;
+        display: flex;
+    }
+
+    .bienvenidos p{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  
+
 .quiensoy{
-    color: brown;
     width:100%;
     height:100%;
 }
@@ -199,7 +220,7 @@ p{
 /* Lenguajes */
 
 .lenguajes{
-    text-align: center;  
+    text-align: center;
 }
 
 .lenguajes img{
@@ -209,7 +230,6 @@ p{
 
 .lenguajes img:hover{
     width: 150PX;
-
 }
 
 /*Estudios*/
@@ -227,18 +247,21 @@ p{
 .estudios ul li{
     width: 500px;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .estudios img{
     width: 150px;
+    padding-top: 1em;
 }
 
 /* Experiencia */
 
 .experiencia{
     display: flex;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
 }
 
 .experiencia img{
