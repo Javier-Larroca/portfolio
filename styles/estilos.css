@@ -51,7 +51,7 @@ p{
 
 .header{
     background: #000;
-    color: #c8c6a7;
+    color: #fff;;
     padding: 1rem 0;
 
     position: fixed;
@@ -62,7 +62,7 @@ p{
 }
 
 .header a{
-    color: #c8c6a7;
+    color: #fff;;
     text-decoration: none;
 }
 
