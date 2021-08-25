@@ -84,7 +84,7 @@ p{
 
 .circular-square {
     border-radius: 50%;
-    width: 5vw;
+    width: 4vw;
 }
 
 .navigation ul {
@@ -106,7 +106,6 @@ p{
 
             .navigation ul li a:hover{
                 background: #4a4a4a;
-                
             }
 
 
