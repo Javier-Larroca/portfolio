@@ -1,6 +1,10 @@
 /* BODY */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,100&display=swap');
 
+
+html{
+    overflow-x: hidden; 
+}
 body {
     color: #212121
     font-size: 1.2rem;
