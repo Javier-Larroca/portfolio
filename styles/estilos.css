@@ -597,3 +597,86 @@ a:hover, .proyects a:hover {
     margin-bottom: 0.2em;
     color: #c586ff;
 }
+
+@media (max-width: 767px) {
+  .logo-nav-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .circular-square {
+    width: 60px;
+  }
+  .menu-icon {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 2rem;
+  }
+  .bienvenidos {
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0.5em;
+  }
+  .bienvenidos ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .bienvenidos img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1em auto;
+  }
+  .lenguajes img {
+    width: 60px;
+    margin: 0.5em;
+  }
+  .proyects {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .card {
+    min-width: 90vw;
+    max-width: 98vw;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    padding: 1em 0.5em;
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+  }
+  .estudios ul {
+    flex-direction: column;
+    gap: 1em;
+    padding: 0;
+  }
+  .estudios ul li {
+    width: 90vw;
+    padding: 1em 0.5em;
+  }
+  .experiencia-lista {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .experiencia-lista .trabajo ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .experiencia-lista .trabajo img {
+    width: 100px;
+    margin-bottom: 0.5em;
+  }
+  footer .footer-content, .footer-bottom {
+    text-align: center;
+    padding: 1em 0.5em;
+  }
+  .socials {
+    justify-content: center;
+    gap: 0.5em;
+  }
+}

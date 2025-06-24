@@ -24,20 +24,14 @@
       <a href="#">
         <img class="circular-square" src="img/logo.png" />
       </a>
-      <span class="menu-icon">Ver menú</span>
-
+      <span class="menu-icon" id="menu-toggle">☰</span>
       <nav class="navigation">
-        <ul>
+        <ul id="nav-list">
           <li><a href="#">¿Quién soy?</a></li>
-
           <li><a href="#languajes">Lenguajes</a></li>
-
           <li><a href="#experiencia">Experiencia</a></li>
-
           <li><a href="#estudios">Estudios</a></li>
-
           <li><a href="#proyects">Proyectos</a></li>
-
           <li><a href="#footer">Contacto</a></li>
         </ul>
       </nav>
@@ -394,6 +388,15 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/funciones.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuToggle = document.getElementById('menu-toggle');
+      const navList = document.getElementById('nav-list');
+      menuToggle.addEventListener('click', function() {
+        navList.classList.toggle('show');
+      });
+    });
+  </script>
 
 </body>
 
