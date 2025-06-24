@@ -11,4 +11,10 @@ jQuery('document').ready(function($){
         }
     })
 
+    // Cerrar el menú al hacer clic en cualquier enlace del menú
+    menu.find('a').click(function(){
+        if(window.innerWidth <= 767){
+            menu.removeClass('show');
+        }
+    });
 });
