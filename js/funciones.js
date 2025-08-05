@@ -39,8 +39,8 @@ function abrirModal(srcImagen, titulo) {
 // Función para inicializar el carrusel de certificados
 function inicializarCarouselCertificados() {
     const carousel = document.getElementById('carouselCertificados');
-    const indicators = document.querySelectorAll('.carousel-indicators button');
-    const items = document.querySelectorAll('.carousel-item');
+    const indicators = carousel.querySelectorAll('.carousel-indicators button');
+    const items = carousel.querySelectorAll('.carousel-item');
     
     if (!carousel) return;
     
@@ -59,15 +59,18 @@ function inicializarCarouselCertificados() {
     
     // Función para cambiar slide de forma instantánea
     function cambiarSlide(slideIndex) {
+        // Verificar que estamos trabajando solo con elementos del carrusel de certificados
+        const certificadosItems = carousel.querySelectorAll('.carousel-item');
+        
         // Ocultar todos los slides instantáneamente
-        items.forEach(item => {
+        certificadosItems.forEach(item => {
             item.style.display = 'none';
             item.classList.remove('active');
         });
         
         // Mostrar el slide seleccionado instantáneamente
-        items[slideIndex].style.display = 'block';
-        items[slideIndex].classList.add('active');
+        certificadosItems[slideIndex].style.display = 'block';
+        certificadosItems[slideIndex].classList.add('active');
         
         // Actualizar indicadores
         actualizarIndicadores(slideIndex);
@@ -88,8 +91,9 @@ function inicializarCarouselCertificados() {
     if (prevButton) {
         prevButton.addEventListener('click', function() {
             const activeItem = carousel.querySelector('.carousel-item.active');
-            const currentIndex = Array.from(items).indexOf(activeItem);
-            const prevIndex = currentIndex === 0 ? items.length - 1 : currentIndex - 1;
+            const certificadosItems = carousel.querySelectorAll('.carousel-item');
+            const currentIndex = Array.from(certificadosItems).indexOf(activeItem);
+            const prevIndex = currentIndex === 0 ? certificadosItems.length - 1 : currentIndex - 1;
             
             // Cambio instantáneo sin animación
             cambiarSlide(prevIndex);
@@ -99,8 +103,9 @@ function inicializarCarouselCertificados() {
     if (nextButton) {
         nextButton.addEventListener('click', function() {
             const activeItem = carousel.querySelector('.carousel-item.active');
-            const currentIndex = Array.from(items).indexOf(activeItem);
-            const nextIndex = currentIndex === items.length - 1 ? 0 : currentIndex + 1;
+            const certificadosItems = carousel.querySelectorAll('.carousel-item');
+            const currentIndex = Array.from(certificadosItems).indexOf(activeItem);
+            const nextIndex = currentIndex === certificadosItems.length - 1 ? 0 : currentIndex + 1;
             
             // Cambio instantáneo sin animación
             cambiarSlide(nextIndex);
