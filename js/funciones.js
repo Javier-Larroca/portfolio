@@ -39,76 +39,31 @@ function abrirModal(srcImagen, titulo) {
 // Función para inicializar el carrusel de certificados
 function inicializarCarouselCertificados() {
     const carousel = document.getElementById('carouselCertificados');
-    const indicators = carousel.querySelectorAll('.carousel-indicators button');
-    const items = carousel.querySelectorAll('.carousel-item');
     
     if (!carousel) return;
     
-    // Función para actualizar indicadores
-    function actualizarIndicadores(slideIndex) {
-        indicators.forEach((indicator, index) => {
-            if (index === slideIndex) {
-                indicator.classList.add('active');
-                indicator.setAttribute('aria-current', 'true');
-            } else {
-                indicator.classList.remove('active');
-                indicator.removeAttribute('aria-current');
-            }
-        });
-    }
-    
-    // Función para cambiar slide de forma instantánea
-    function cambiarSlide(slideIndex) {
-        // Verificar que estamos trabajando solo con elementos del carrusel de certificados
-        const certificadosItems = carousel.querySelectorAll('.carousel-item');
-        
-        // Ocultar todos los slides instantáneamente
-        certificadosItems.forEach(item => {
-            item.style.display = 'none';
-            item.classList.remove('active');
+    // Configurar el carrusel de Bootstrap
+    if (typeof bootstrap !== 'undefined') {
+        const bsCarousel = new bootstrap.Carousel(carousel, {
+            interval: false, // Desactivar auto-play
+            wrap: true // Permitir que vuelva al inicio
         });
         
-        // Mostrar el slide seleccionado instantáneamente
-        certificadosItems[slideIndex].style.display = 'block';
-        certificadosItems[slideIndex].classList.add('active');
-        
-        // Actualizar indicadores
-        actualizarIndicadores(slideIndex);
-    }
-    
-    // Event listeners para los indicadores
-    indicators.forEach((indicator, index) => {
-        indicator.addEventListener('click', function() {
-            // Cambio instantáneo sin animación
-            cambiarSlide(index);
-        });
-    });
-    
-    // Event listeners para las flechas
-    const prevButton = carousel.querySelector('.carousel-control-prev');
-    const nextButton = carousel.querySelector('.carousel-control-next');
-    
-    if (prevButton) {
-        prevButton.addEventListener('click', function() {
-            const activeItem = carousel.querySelector('.carousel-item.active');
-            const certificadosItems = carousel.querySelectorAll('.carousel-item');
-            const currentIndex = Array.from(certificadosItems).indexOf(activeItem);
-            const prevIndex = currentIndex === 0 ? certificadosItems.length - 1 : currentIndex - 1;
+        // Event listener para actualizar indicadores cuando cambia el slide
+        carousel.addEventListener('slid.bs.carousel', function(event) {
+            const slideIndex = event.to;
+            const indicators = document.querySelectorAll('.carousel-indicators button');
             
-            // Cambio instantáneo sin animación
-            cambiarSlide(prevIndex);
-        });
-    }
-    
-    if (nextButton) {
-        nextButton.addEventListener('click', function() {
-            const activeItem = carousel.querySelector('.carousel-item.active');
-            const certificadosItems = carousel.querySelectorAll('.carousel-item');
-            const currentIndex = Array.from(certificadosItems).indexOf(activeItem);
-            const nextIndex = currentIndex === certificadosItems.length - 1 ? 0 : currentIndex + 1;
-            
-            // Cambio instantáneo sin animación
-            cambiarSlide(nextIndex);
+            // Actualizar indicadores
+            indicators.forEach((indicator, index) => {
+                if (index === slideIndex) {
+                    indicator.classList.add('active');
+                    indicator.setAttribute('aria-current', 'true');
+                } else {
+                    indicator.classList.remove('active');
+                    indicator.removeAttribute('aria-current');
+                }
+            });
         });
     }
 }

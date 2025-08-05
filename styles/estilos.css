@@ -835,6 +835,8 @@ a:hover, .proyects a:hover {
 
 .carousel-indicators-container {
   margin-top: 2em;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-indicators {
