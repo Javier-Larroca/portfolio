@@ -773,6 +773,11 @@ a:hover, .proyects a:hover {
   font-weight: normal;
 }
 
+/* Separación entre aptitudes y fecha de finalización */
+.certificado-info p:has(.aptitudes-contenido) {
+  margin-bottom: 1.5em;
+}
+
 /* Estilos para los controles del carrusel */
 .certificados-carousel-container .carousel-control-prev,
 .certificados-carousel-container .carousel-control-next {
