@@ -114,6 +114,7 @@ const translations = {
         
         // Footer
         "footer-contact": "Contacto: Javier-larroca@hotmail.com",
+        "download-cv": "Descargar CV",
         "footer-copyright": "Copyright ©2025 Javier Larroca.",
         
         // Etiquetas comunes
@@ -240,6 +241,7 @@ const translations = {
         
         // Footer
         "footer-contact": "Contact: Javier-larroca@hotmail.com",
+        "download-cv": "Download CV",
         "footer-copyright": "Copyright ©2025 Javier Larroca.",
         
         // Common labels

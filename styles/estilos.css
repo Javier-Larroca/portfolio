@@ -524,15 +524,15 @@ p{
 /* FOOTER */
 
 footer{
-    left: 0;
-    right: 0;
-    position: auto;
     background: #1e1e2d;
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: "Open Sans";
     padding-top: 20px;
     color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-content {
@@ -541,6 +541,11 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .footer-content h3{
@@ -563,11 +568,15 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem auto 3rem auto;
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
 }
 
 .socials li{
-    margin: 0 10px;
+    margin: 0 15px;
+    padding: 0;
 }
 
 .socials a{
@@ -578,6 +587,8 @@ footer{
 .socials a i {
     font-size: 2.1rem;
     transition: color .4s ease;
+    display: block;
+    text-align: center;
 }
 
 .socials a:hover i{
@@ -586,7 +597,7 @@ footer{
 
 .footer-bottom{
     background: #23233a;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
@@ -619,6 +630,39 @@ footer{
 
 .experiencia-lista .trabajo:hover {
   box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+}
+
+/* CV Download Button */
+.cv-download {
+  margin: 1rem 0;
+}
+
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #8a5a9e 0%, #3a5a7a 100%);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(138, 90, 158, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cv-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(138, 90, 158, 0.4);
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #9a6aae 0%, #4a6a8a 100%);
+}
+
+.cv-btn i {
+  font-size: 18px;
 }
 
 .experiencia-lista .trabajo ul {
