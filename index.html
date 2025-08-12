@@ -24,13 +24,13 @@
         <span class="menu-icon" id="menu-toggle">☰</span>
         <nav class="navigation">
           <ul id="nav-list">
-            <li><a href="#">¿Quién soy?</a></li>
-            <li><a href="#languajes">Lenguajes</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#estudios">Estudios</a></li>
-            <li><a href="#certificados">Certificados</a></li>
-            <li><a href="#proyects">Proyectos</a></li>
-            <li><a href="#footer">Contacto</a></li>
+            <li><a href="#" data-translate="nav-about">¿Quién soy?</a></li>
+            <li><a href="#languajes" data-translate="nav-languages">Lenguajes</a></li>
+            <li><a href="#experiencia" data-translate="nav-experience">Experiencia</a></li>
+            <li><a href="#estudios" data-translate="nav-studies">Estudios</a></li>
+            <li><a href="#certificados" data-translate="nav-certificates">Certificados</a></li>
+            <li><a href="#proyects" data-translate="nav-projects">Proyectos</a></li>
+            <li><a href="#footer" data-translate="nav-contact">Contacto</a></li>
             <li class="language-switcher">
               <button id="language-toggle" class="language-btn">
                 <span class="current-lang">ES</span>
@@ -46,11 +46,11 @@
         <div class="bienvenidos">
           <ul>
             <li>
-              <h1>¡Hola, mundo!</h1>
-              <p>Soy Javier Agustín Larroca, egresado de la Tecnicatura Universitaria en Programación de la Universidad Tecnológica Nacional.</p>
-              <p>Desde 2021 me desempeño como desarrollador fullstack, especializado en backend con C# .NET, bases de datos relacionales mediante SQL y desarrollo de interfaces web utilizando Angular.</p>
-              <p>Además, soy docente de Programación en la UTN, Facultad Regional General Pacheco. Comencé como ayudante mientras aún era estudiante, y esa experiencia me llevó a descubrir una nueva pasión: la docencia.</p>
-              <p>Me considero una persona comprometida con el aprendizaje continuo y con la adopción de buenas prácticas en el desarrollo de software, siempre buscando crecer tanto en lo técnico como en lo humano en cada desafío que enfrento.</p>
+              <h1 data-translate="hello-world">¡Hola, mundo!</h1>
+              <p data-translate="about-text-1">Soy Javier Agustín Larroca, egresado de la Tecnicatura Universitaria en Programación de la Universidad Tecnológica Nacional.</p>
+              <p data-translate="about-text-2">Desde 2021 me desempeño como desarrollador fullstack, especializado en backend con C# .NET, bases de datos relacionales mediante SQL y desarrollo de interfaces web utilizando Angular.</p>
+              <p data-translate="about-text-3">Además, soy docente de Programación en la UTN, Facultad Regional General Pacheco. Comencé como ayudante mientras aún era estudiante, y esa experiencia me llevó a descubrir una nueva pasión: la docencia.</p>
+              <p data-translate="about-text-4">Me considero una persona comprometida con el aprendizaje continuo y con la adopción de buenas prácticas en el desarrollo de software, siempre buscando crecer tanto en lo técnico como en lo humano en cada desafío que enfrento.</p>
             </li>
             <li>
               <img src="img/miFoto.png" alt="Foto JL">
@@ -59,7 +59,7 @@
         </div>
         <section id="languajes" class="padding">
           <div class="container">
-            <h2>Lenguajes</h2>
+            <h2 data-translate="section-languages">Lenguajes</h2>
             <div class="lenguajes">
               <img src="img/lenguajes/c++.png" alt="C++">
               <img src="img/lenguajes/c.png" alt="C#">
@@ -71,16 +71,16 @@
         </section>
         <section id="experiencia" class="padding">
           <div class="container">
-            <h2>Experiencia</h2>
+            <h2 data-translate="section-experience">Experiencia</h2>
             <div class="experiencia-lista">
               <div class="trabajo" data-exp="exp-utn">
                 <ul>
                   <li><img src="img/exp/utn.png" alt="UTN - FRGP"></li>
                   <li>
-                    <h4>UTN - FRGP</h4>
-                    <h5>Docente de Programación I / Ayudante de Programación III</h5>
-                    <p>Docente en la Tecnicatura Universitaria en Programación, impartiendo contenidos de programación estructurada mediante diagramas de flujo y C++. Temas abordados: ciclos exactos e inexactos, estructuras condicionales, vectores, matrices, funciones y metodologías algorítmicas. Uso activo del Campus Virtual Moodle.</p>
-                    <h6><span class="period-label">Desde:</span> 03/2021 <span class="period-label"> - Hasta:</span> Actualidad</h6>
+                    <h4 data-translate="exp-utn-title">UTN - FRGP</h4>
+                    <h5 data-translate="exp-utn-role">Docente de Programación I / Ayudante de Programación III</h5>
+                    <p data-translate="exp-utn-desc-1">Docente en la Tecnicatura Universitaria en Programación, impartiendo contenidos de programación estructurada mediante diagramas de flujo y C++. Temas abordados: ciclos exactos e inexactos, estructuras condicionales, vectores, matrices, funciones y metodologías algorítmicas. Uso activo del Campus Virtual Moodle.</p>
+                    <h6 data-translate="exp-utn-period"><span class="period-label">Desde:</span> 03/2021 <span class="period-label"> - Hasta:</span> Actualidad</h6>
                   </li>
                 </ul>
               </div>
@@ -88,11 +88,11 @@
                 <ul>
                   <li><img src="img/exp/advertmind.png" alt="Advertmind"></li>
                   <li>
-                    <h4>Advertmind</h4>
-                    <h5>Desarrollador de software en I+D</h5>
-                    <p>Desarrollo de aplicaciones web y de escritorio utilizando C# .NET, Angular con TypeScript, SQL Server, y control de versiones con SVN. Trabajo bajo metodologías ágiles (Scrum).</p>
-                    <p>Formé parte del departamento de I+D, participando activamente en la mejora continua del producto mediante el desarrollo de nuevas funcionalidades, resolución de incidencias y adaptaciones a nuevos requerimientos de clientes.</p>
-                    <h6><span class="period-label">Desde:</span> 05/2023 <span class="period-label"> - Hasta:</span> 05/2025</h6>
+                    <h4 data-translate="exp-advertmind-title">Advertmind</h4>
+                    <h5 data-translate="exp-advertmind-role">Desarrollador de software en I+D</h5>
+                    <p data-translate="exp-advertmind-desc-1">Desarrollo de aplicaciones web y de escritorio utilizando C# .NET, Angular con TypeScript, SQL Server, y control de versiones con SVN. Trabajo bajo metodologías ágiles (Scrum).</p>
+                    <p data-translate="exp-advertmind-desc-2">Formé parte del departamento de I+D, participando activamente en la mejora continua del producto mediante el desarrollo de nuevas funcionalidades, resolución de incidencias y adaptaciones a nuevos requerimientos de clientes.</p>
+                    <h6 data-translate="exp-advertmind-period"><span class="period-label">Desde:</span> 05/2023 <span class="period-label"> - Hasta:</span> 05/2025</h6>
                   </li>
                 </ul>
               </div>
@@ -100,11 +100,11 @@
                 <ul>
                   <li><img src="img/exp/recursiva.png" alt="Recursiva"></li>
                   <li>
-                    <h4>Recursiva</h4>
-                    <h5>Desarrollador de software Full Stack</h5>
-                    <p>Desarrollo de aplicaciones web utilizando TypeScript, C# y SQL Server con frameworks como .NET y Angular.</p>
-                    <p>Participé en el desarrollo desde cero del portal web para GDM Seeds, adaptado a medida para sus clientes, abarcando desde el backend hasta la interfaz de usuario.</p>
-                    <h6><span class="period-label">Desde:</span> 02/2022 <span class="period-label"> - Hasta:</span> 04/2023</h6>
+                    <h4 data-translate="exp-recursiva-title">Recursiva</h4>
+                    <h5 data-translate="exp-recursiva-role">Desarrollador de software Full Stack</h5>
+                    <p data-translate="exp-recursiva-desc-1">Desarrollo de aplicaciones web utilizando TypeScript, C# y SQL Server con frameworks como .NET y Angular.</p>
+                    <p data-translate="exp-recursiva-desc-2">Participé en el desarrollo desde cero del portal web para GDM Seeds, adaptado a medida para sus clientes, abarcando desde el backend hasta la interfaz de usuario.</p>
+                    <h6 data-translate="exp-recursiva-period"><span class="period-label">Desde:</span> 02/2022 <span class="period-label"> - Hasta:</span> 04/2023</h6>
                   </li>
                 </ul>
               </div>
@@ -112,11 +112,11 @@
                 <ul>
                   <li><img src="img/exp/practia.png" alt="Practia Global"></li>
                   <li>
-                    <h4>Practia Global</h4>
-                    <h5>Desarrollador de software Full Stack</h5>
-                    <p>Desarrollo de aplicaciones web con TypeScript, C# y SQL Server, utilizando .NET Core con Entity Framework y Angular para el frontend.</p>
-                    <p>Trabajé en el proyecto Y-Rupe para Y-Tec, abordando el modelado de base de datos, desarrollo de API y construcción de interfaces con plantillas provistas por el cliente.</p>
-                    <h6><span class="period-label">Desde:</span> 07/2021 <span class="period-label">- Hasta:</span> 02/2022</h6>
+                    <h4 data-translate="exp-practia-title">Practia Global</h4>
+                    <h5 data-translate="exp-practia-role">Desarrollador de software Full Stack</h5>
+                    <p data-translate="exp-practia-desc-1">Desarrollo de aplicaciones web con TypeScript, C# y SQL Server, utilizando .NET Core con Entity Framework y Angular para el frontend.</p>
+                    <p data-translate="exp-practia-desc-2">Trabajé en el proyecto Y-Rupe para Y-Tec, abordando el modelado de base de datos, desarrollo de API y construcción de interfaces con plantillas provistas por el cliente.</p>
+                    <h6 data-translate="exp-practia-period"><span class="period-label">Desde:</span> 07/2021 <span class="period-label">- Hasta:</span> 02/2022</h6>
                   </li>
                 </ul>
               </div>
@@ -124,10 +124,10 @@
                 <ul>
                   <li><img src="img/exp/admin.png" alt="Experiencia administrativo"></li>
                   <li>
-                    <h4>MSD Argentina, Smith Molina, Vectatio, Vialme</h4>
-                    <h5>Administrativo</h5>
-                    <p>Desde mediados de 2016, inicié como pasante realizando tareas administrativas en talleres, luego en compras y logística. Fui encargado de compras y también administrativo de logística, monitoreando la cadena de frío en la distribución local.</p>
-                    <h6><span class="period-label">Desde:</span> 05/2016 <span class="period-label">- Hasta:</span> 07/2021</h6>
+                    <h4 data-translate="exp-admin-title">MSD Argentina, Smith Molina, Vectatio, Vialme</h4>
+                    <h5 data-translate="exp-admin-role">Administrativo</h5>
+                    <p data-translate="exp-admin-desc-1">Desde mediados de 2016, inicié como pasante realizando tareas administrativas en talleres, luego en compras y logística. Fui encargado de compras y también administrativo de logística, monitoreando la cadena de frío en la distribución local.</p>
+                    <h6 data-translate="exp-admin-period"><span class="period-label">Desde:</span> 05/2016 <span class="period-label">- Hasta:</span> 07/2021</h6>
                   </li>
                 </ul>
               </div>
@@ -135,32 +135,32 @@
           </div>
         </section>
         <section id="estudios" class="padding">
-          <h2>Estudios</h2>
+          <h2 data-translate="section-studies">Estudios</h2>
           <div class="estudios row">
             <ul>
               <li>
                 <img src="img/estudios/utnba.avif" alt="">
-                <h4>UTN - BA</h4>
-                <h6>Licenciatura en Tecnología Educativa</h6>
-                <p>Desde: 08/2025 - Hasta: 12/2026</p>
+                <h4 data-translate="studies-utnba-title">UTN - BA</h4>
+                <h6 data-translate="studies-utnba-degree">Licenciatura en Tecnología Educativa</h6>
+                <p data-translate="studies-utnba-period">Desde: 08/2025 - Hasta: 12/2026</p>
               </li>
               <li>
                 <img src="img/estudios/utn.png" alt="">
-                <h4>UTN - FRGP</h4>
-                <h6>Tecnicatura Universitaria en Programación</h6>
-                <p>Desde: 02/2020 - Hasta: 12/2021</p>
+                <h4 data-translate="studies-utn-title">UTN - FRGP</h4>
+                <h6 data-translate="studies-utn-degree">Tecnicatura Universitaria en Programación</h6>
+                <p data-translate="studies-utn-period">Desde: 02/2020 - Hasta: 12/2021</p>
               </li>
               <li>
                 <img src="img/estudios/ra.png" alt="">
-                <h4>E.E.S.T.Nº 3</h4>
-                <h6>Tecnicatura personal y profesional en informática</h6>
-                <p>Desde: 03/2010 - Hasta: 12/2016</p>
+                <h4 data-translate="studies-school-title">E.E.S.T.Nº 3</h4>
+                <h6 data-translate="studies-school-degree">Tecnicatura personal y profesional en informática</h6>
+                <p data-translate="studies-school-period">Desde: 03/2010 - Hasta: 12/2016</p>
               </li>
             </ul>
           </div>
         </section>
         <section id="certificados" class="padding">
-          <h2>Certificados</h2>
+          <h2 data-translate="section-certificates">Certificados</h2>
           <div class="certificados-carousel-container">
             <div id="carouselCertificados" class="carousel slide" data-bs-ride="false">
               <div class="carousel-inner">
@@ -171,10 +171,10 @@
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/webApi.jpeg', 'Certificado Web API .Net Core')">
                     </div>
                     <div class="certificado-info">
-                      <h4>Web API .Net Core</h4>
-                      <h6>Educación IT</h6>
-                      <p>Aptitudes: <span class="aptitudes-contenido">Desarrollo de APIs RESTful · Manejo de .NET Core · Serialización de datos y consumo de servicios · Seguridad en APIs · Testing de endpoints · Principios SOLID y buenas prácticas</span></p>
-                      <p>Finalizado: 08/2025</p>
+                      <h4 data-translate="cert-webapi-title">Web API .Net Core</h4>
+                      <h6 data-translate="cert-webapi-institution">Educación IT</h6>
+                      <p data-translate="cert-webapi-skills">Aptitudes: <span class="aptitudes-contenido">Desarrollo de APIs RESTful · Manejo de .NET Core · Serialización de datos y consumo de servicios · Seguridad en APIs · Testing de endpoints · Principios SOLID y buenas prácticas</span></p>
+                      <p data-translate="cert-webapi-date">Finalizado: 08/2025</p>
                     </div>
                   </div>
                 </div>
@@ -185,10 +185,10 @@
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/AportesParaLaConstrucción.png', 'Aportes para la construcción colectiva de la perspectiva de accesibilidad')">
                     </div>
                     <div class="certificado-info">
-                      <h4>Aportes para la construcción colectiva de la perspectiva de accesibilidad</h4>
-                      <h6>Universidad Tecnológica Nacional</h6>
-                      <p>Aptitudes: <span class="aptitudes-contenido">Perspectiva de accesibilidad · Sensibilidad y empatía social · Inclusión laboral y educativa · Diseño universal · Trabajo colaborativo</span></p>
-                      <p>Finalizado: 10/2024</p>
+                      <h4 data-translate="cert-accesibilidad-title">Aportes para la construcción colectiva de la perspectiva de accesibilidad</h4>
+                      <h6 data-translate="cert-accesibilidad-institution">Universidad Tecnológica Nacional</h6>
+                      <p data-translate="cert-accesibilidad-skills">Aptitudes: <span class="aptitudes-contenido">Perspectiva de accesibilidad · Sensibilidad y empatía social · Inclusión laboral y educativa · Diseño universal · Trabajo colaborativo</span></p>
+                      <p data-translate="cert-accesibilidad-date">Finalizado: 10/2024</p>
                     </div>
                   </div>
                 </div>
@@ -199,10 +199,10 @@
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/micaelaTec.png', 'Micaela TEC - Ciencia y tecnología hacia la igualdad')">
                     </div>
                     <div class="certificado-info">
-                      <h4>Micaela TEC - Ciencia y tecnología hacia la igualdad</h4>
-                      <h6>Universidad Tecnológica Nacional</h6>
-                      <p>Aptitudes: <span class="aptitudes-contenido">Perspectiva de género en ciencia y tecnología · Sensibilización en violencia de género · Compromiso con la igualdad</span></p>
-                      <p>Finalizado: 06/2024</p>
+                      <h4 data-translate="cert-micaela-title">Micaela TEC - Ciencia y tecnología hacia la igualdad</h4>
+                      <h6 data-translate="cert-micaela-institution">Universidad Tecnológica Nacional</h6>
+                      <p data-translate="cert-micaela-skills">Aptitudes: <span class="aptitudes-contenido">Perspectiva de género en ciencia y tecnología · Sensibilización en violencia de género · Compromiso con la igualdad</span></p>
+                      <p data-translate="cert-micaela-date">Finalizado: 06/2024</p>
                     </div>
                   </div>
                 </div>
@@ -213,21 +213,21 @@
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/backend.Net.png', 'BackEnd .Net Immesion')">
                     </div>
                     <div class="certificado-info">
-                      <h4>BackEnd .Net Immesion</h4>
-                      <h6>MindHub LA</h6>
-                      <p>Aptitudes: <span class="aptitudes-contenido">Programación Backend en .NET · Entity Framework y acceso a datos · Angular ·  Control de versiones con GIT</span></p>
-                      <p>Finalizado: 08/2021</p>
+                      <h4 data-translate="cert-backend-title">BackEnd .Net Immersion</h4>
+                      <h6 data-translate="cert-backend-institution">MindHub LA</h6>
+                      <p data-translate="cert-backend-skills">Aptitudes: <span class="aptitudes-contenido">Programación Backend en .NET · Entity Framework y acceso a datos · Angular ·  Control de versiones con GIT</span></p>
+                      <p data-translate="cert-backend-date">Finalizado: 08/2021</p>
                     </div>
                   </div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselCertificados" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
+                <span class="visually-hidden" data-translate="previous">Anterior</span>
               </button>
               <button class="carousel-control-next" type="button" data-bs-target="#carouselCertificados" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
+                <span class="visually-hidden" data-translate="next">Siguiente</span>
               </button>
             </div>
             <div class="carousel-indicators-container">
@@ -252,7 +252,7 @@
         
         <section id="proyects" class="padding">
           <div class="container">
-            <h2>Proyectos</h2>
+            <h2 data-translate="section-projects">Proyectos</h2>
             <div class="proyects">
               <div class="row center-xs">
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -279,9 +279,9 @@
                         </div>
                       </div>
                     </div>
-                    <h3><a href="https://github.com/Javier-Larroca/proyectoAngular-Tarjetas" target="_blank">ABM Tarjetas</a></h3>
-                    <p>Proyecto realizado íntegramente como práctica. Alta, baja y modificación de tarjetas con conexión a base de datos.</p>
-                    <h6><span class="period-label">Tecnologías:</span> Angular, .NET y SQL</h6>
+                    <h3><a href="https://github.com/Javier-Larroca/proyectoAngular-Tarjetas" target="_blank" data-translate="project-tarjetas-title">ABM Tarjetas</a></h3>
+                    <p data-translate="project-tarjetas-desc">Proyecto realizado íntegramente como práctica. Alta, baja y modificación de tarjetas con conexión a base de datos.</p>
+                    <h6 data-translate="project-tarjetas-tech"><span class="period-label">Tecnologías:</span> Angular, .NET y SQL</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -317,9 +317,9 @@
                         </div>
                       </div>
                     </div>
-                    <h3><a href="https://github.com/Javier-Larroca/TPC_Larroca_Vasquez" target="_blank">Turnero para Clínica</a></h3>
-                    <p>Asignación de turnos a pacientes vinculándolos según especialidad y médico seleccionado. Control de usuario con diferentes roles.</p>
-                    <h6><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
+                    <h3><a href="https://github.com/Javier-Larroca/TPC_Larroca_Vasquez" target="_blank" data-translate="project-clinica-title">Turnero para Clínica</a></h3>
+                    <p data-translate="project-clinica-desc">Asignación de turnos a pacientes vinculándolos según especialidad y médico seleccionado. Control de usuario con diferentes roles.</p>
+                    <h6 data-translate="project-clinica-tech"><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -334,9 +334,9 @@
                         </div>
                       </div>
                     </div>
-                    <h3><a href="https://github.com/Javier-Larroca/carrito-web" target="_blank">Carrito Web</a></h3>
-                    <p>Listado de productos, cargados desde base de datos SQL, agregados al carrito de compras mediante sesión de navegador.</p>
-                    <h6><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
+                    <h3><a href="https://github.com/Javier-Larroca/carrito-web" target="_blank" data-translate="project-carrito-title">Carrito Web</a></h3>
+                    <p data-translate="project-carrito-desc">Listado de productos, cargados desde base de datos SQL, agregados al carrito de compras mediante sesión de navegador.</p>
+                    <h6 data-translate="project-carrito-tech"><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
                   </div>
                 </div>
                 <p></p>
@@ -364,9 +364,9 @@
                         </div>
                       </div>
                     </div>
-                    <h3><a href="https://github.com/Javier-Larroca/Tp-Winform-Larroca-Vasquez" target="_blank">Sistema de stock</a></h3>
-                    <p>Sistema para control de stock de productos con alta, baja, modificación y listado de productos, categorías y marcas. Utilizando Programación orientada a objetos, con conexión a base de datos.</p>
-                    <h6><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
+                    <h3><a href="https://github.com/Javier-Larroca/Tp-Winform-Larroca-Vasquez" target="_blank" data-translate="project-catalogador-title">Sistema de stock</a></h3>
+                    <p data-translate="project-catalogador-desc">Sistema para control de stock de productos con alta, baja, modificación y listado de productos, categorías y marcas. Utilizando Programación orientada a objetos, con conexión a base de datos.</p>
+                    <h6 data-translate="project-catalogador-tech"><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -384,9 +384,9 @@
                         </div>
                       </div>
                     </div>
-                    <h3><a href="https://github.com/Javier-Larroca/LARA" target="_blank">LARA</a></h3>
-                    <p>Sistema de control de usuarios y entrenamientos ideado para ser utilizado en un gimnasio. El mismo cuenta con alta, baja, modificación y listado de usuario y entrenamientos</p>
-                    <h6><span class="period-label">Tecnologías:</span> C++ y C</h6>
+                    <h3><a href="https://github.com/Javier-Larroca/LARA" target="_blank" data-translate="project-lara-title">LARA</a></h3>
+                    <p data-translate="project-lara-desc">Sistema de control de usuarios y entrenamientos ideado para ser utilizado en un gimnasio. El mismo cuenta con alta, baja, modificación y listado de usuario y entrenamientos</p>
+                    <h6 data-translate="project-lara-tech"><span class="period-label">Tecnologías:</span> C++ y C</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -410,9 +410,9 @@
                         </div>
                       </div>
                     </div>
-                    <h3><a href="https://github.com/Javier-Larroca/Generala" target="_blank">Generala</a></h3>
-                    <p>Juego generala de dos jugadores. Con cálculo de puntajes y turnos para cada jugador. Contiene interfaz gráfica y programación orientada a objetos.</p>
-                    <h6><span class="period-label">Tecnologías:</span> C++</h6>
+                    <h3><a href="https://github.com/Javier-Larroca/Generala" target="_blank" data-translate="project-generala-title">Generala</a></h3>
+                    <p data-translate="project-generala-desc">Juego generala de dos jugadores. Con cálculo de puntajes y turnos para cada jugador. Contiene interfaz gráfica y programación orientada a objetos.</p>
+                    <h6 data-translate="project-generala-tech"><span class="period-label">Tecnologías:</span> C++</h6>
                   </div>
                 </div>
               </div>
@@ -424,7 +424,7 @@
     <footer id="footer">
       <div class="footer-content">
         <h3>Larroca Javier</h3>
-        <p>Contacto: Javier-larroca@hotmail.com</p>
+        <p data-translate="footer-contact">Contacto: Javier-larroca@hotmail.com</p>
         <ul class="socials">
           <li><a href="https://www.linkedin.com/in/javier-agustin-larroca-393418188/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
           <li><a href="https://github.com/Javier-Larroca" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -433,7 +433,7 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p>Copyright ©2025 Javier Larroca.</p>
+        <p data-translate="footer-copyright">Copyright ©2025 Javier Larroca.</p>
       </div>
     </footer>
     <!-- Conexiones -->

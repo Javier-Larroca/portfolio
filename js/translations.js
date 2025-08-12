@@ -82,7 +82,7 @@ const translations = {
         "cert-micaela-skills": "Perspectiva de género en ciencia y tecnología · Sensibilización en violencia de género · Compromiso con la igualdad",
         "cert-micaela-date": "Finalizado: 06/2024",
         
-        "cert-backend-title": "BackEnd .Net Immesion",
+        "cert-backend-title": "BackEnd .Net Immersion",
         "cert-backend-institution": "MindHub LA",
         "cert-backend-skills": "Programación Backend en .NET · Entity Framework y acceso a datos · Angular · Control de versiones con GIT",
         "cert-backend-date": "Finalizado: 08/2021",
