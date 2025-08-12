@@ -209,6 +209,40 @@ p{
                 background: #4a4a4a;
             }
 
+/* Estilos para el botón de cambio de idioma */
+.language-switcher {
+    margin-left: 1rem;
+}
+
+.language-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.language-btn:hover {
+    background: rgba(197, 134, 255, 0.2);
+    border-color: #c586ff;
+    transform: translateY(-1px);
+}
+
+.current-lang {
+    font-weight: 600;
+}
+
+.language-icon {
+    font-size: 1rem;
+}
+
 
 
 @media only screen and (max-width: 767px){
@@ -654,6 +688,14 @@ a:hover, .proyects a:hover {
     color: #c586ff;
 }
 
+.experiencia-lista .trabajo h6 .period-label {
+    color: #f3f3f3;
+}
+
+.card h6 .period-label {
+    color: #f3f3f3;
+}
+
 .experiencia-lista .trabajo {
     border: none;
     background: #23233a;
@@ -866,7 +908,7 @@ a:hover, .proyects a:hover {
   top: 50% !important;
   transform: translateY(-50%) !important;
   transition: all 0.3s ease !important;
-  z-index: 1000 !important;
+  z-index: 50 !important;
   display: block !important;
   opacity: 1 !important;
 }

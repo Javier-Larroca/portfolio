@@ -31,6 +31,12 @@
             <li><a href="#certificados">Certificados</a></li>
             <li><a href="#proyects">Proyectos</a></li>
             <li><a href="#footer">Contacto</a></li>
+            <li class="language-switcher">
+              <button id="language-toggle" class="language-btn">
+                <span class="current-lang">ES</span>
+                <span class="language-icon">🌐</span>
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
@@ -67,18 +73,18 @@
           <div class="container">
             <h2>Experiencia</h2>
             <div class="experiencia-lista">
-              <div class="trabajo">
+              <div class="trabajo" data-exp="exp-utn">
                 <ul>
                   <li><img src="img/exp/utn.png" alt="UTN - FRGP"></li>
                   <li>
                     <h4>UTN - FRGP</h4>
                     <h5>Docente de Programación I / Ayudante de Programación III</h5>
                     <p>Docente en la Tecnicatura Universitaria en Programación, impartiendo contenidos de programación estructurada mediante diagramas de flujo y C++. Temas abordados: ciclos exactos e inexactos, estructuras condicionales, vectores, matrices, funciones y metodologías algorítmicas. Uso activo del Campus Virtual Moodle.</p>
-                    <h6>Desde: 03/2021 - Hasta: Actualidad</h6>
+                    <h6><span class="period-label">Desde:</span> 03/2021 <span class="period-label"> - Hasta:</span> Actualidad</h6>
                   </li>
                 </ul>
               </div>
-              <div class="trabajo">
+              <div class="trabajo" data-exp="exp-advertmind">
                 <ul>
                   <li><img src="img/exp/advertmind.png" alt="Advertmind"></li>
                   <li>
@@ -86,11 +92,11 @@
                     <h5>Desarrollador de software en I+D</h5>
                     <p>Desarrollo de aplicaciones web y de escritorio utilizando C# .NET, Angular con TypeScript, SQL Server, y control de versiones con SVN. Trabajo bajo metodologías ágiles (Scrum).</p>
                     <p>Formé parte del departamento de I+D, participando activamente en la mejora continua del producto mediante el desarrollo de nuevas funcionalidades, resolución de incidencias y adaptaciones a nuevos requerimientos de clientes.</p>
-                    <h6>Desde: 05/2023 - Hasta: 05/2025</h6>
+                    <h6><span class="period-label">Desde:</span> 05/2023 <span class="period-label"> - Hasta:</span> 05/2025</h6>
                   </li>
                 </ul>
               </div>
-              <div class="trabajo">
+              <div class="trabajo" data-exp="exp-recursiva">
                 <ul>
                   <li><img src="img/exp/recursiva.png" alt="Recursiva"></li>
                   <li>
@@ -98,11 +104,11 @@
                     <h5>Desarrollador de software Full Stack</h5>
                     <p>Desarrollo de aplicaciones web utilizando TypeScript, C# y SQL Server con frameworks como .NET y Angular.</p>
                     <p>Participé en el desarrollo desde cero del portal web para GDM Seeds, adaptado a medida para sus clientes, abarcando desde el backend hasta la interfaz de usuario.</p>
-                    <h6>Desde: 02/2022 - Hasta: 04/2023</h6>
+                    <h6><span class="period-label">Desde:</span> 02/2022 <span class="period-label"> - Hasta:</span> 04/2023</h6>
                   </li>
                 </ul>
               </div>
-              <div class="trabajo">
+              <div class="trabajo" data-exp="exp-practia">
                 <ul>
                   <li><img src="img/exp/practia.png" alt="Practia Global"></li>
                   <li>
@@ -110,18 +116,18 @@
                     <h5>Desarrollador de software Full Stack</h5>
                     <p>Desarrollo de aplicaciones web con TypeScript, C# y SQL Server, utilizando .NET Core con Entity Framework y Angular para el frontend.</p>
                     <p>Trabajé en el proyecto Y-Rupe para Y-Tec, abordando el modelado de base de datos, desarrollo de API y construcción de interfaces con plantillas provistas por el cliente.</p>
-                    <h6>Desde: 07/2021 - Hasta: 02/2022</h6>
+                    <h6><span class="period-label">Desde:</span> 07/2021 <span class="period-label">- Hasta:</span> 02/2022</h6>
                   </li>
                 </ul>
               </div>
-              <div class="trabajo">
+              <div class="trabajo" data-exp="exp-admin">
                 <ul>
                   <li><img src="img/exp/admin.png" alt="Experiencia administrativo"></li>
                   <li>
                     <h4>MSD Argentina, Smith Molina, Vectatio, Vialme</h4>
                     <h5>Administrativo</h5>
                     <p>Desde mediados de 2016, inicié como pasante realizando tareas administrativas en talleres, luego en compras y logística. Fui encargado de compras y también administrativo de logística, monitoreando la cadena de frío en la distribución local.</p>
-                    <h6>Desde: 05/2016 - Hasta: 07/2021</h6>
+                    <h6><span class="period-label">Desde:</span> 05/2016 <span class="period-label">- Hasta:</span> 07/2021</h6>
                   </li>
                 </ul>
               </div>
@@ -159,7 +165,7 @@
             <div id="carouselCertificados" class="carousel slide" data-bs-ride="false">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <div class="certificado-item">
+                  <div class="certificado-item" data-cert="cert-webapi">
                     <div class="certificado-imagen">
                       <img src="img/certificados/webApi.jpeg" alt="Certificado Web API .Net Core" 
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/webApi.jpeg', 'Certificado Web API .Net Core')">
@@ -173,7 +179,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="certificado-item">
+                  <div class="certificado-item" data-cert="cert-accesibilidad">
                     <div class="certificado-imagen">
                       <img src="img/certificados/AportesParaLaConstrucción.png" alt="Aportes para la construcción colectiva de la perspectiva de accesibilidad" 
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/AportesParaLaConstrucción.png', 'Aportes para la construcción colectiva de la perspectiva de accesibilidad')">
@@ -187,7 +193,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="certificado-item">
+                  <div class="certificado-item" data-cert="cert-micaela">
                     <div class="certificado-imagen">
                       <img src="img/certificados/micaelaTec.png" alt="Micaela TEC - Ciencia y tecnología hacia la igualdad" 
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/micaelaTec.png', 'Micaela TEC - Ciencia y tecnología hacia la igualdad')">
@@ -201,7 +207,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="certificado-item">
+                  <div class="certificado-item" data-cert="cert-backend">
                     <div class="certificado-imagen">
                       <img src="img/certificados/backend.Net.png" alt="BackEnd .Net Immesion" 
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/backEnd.Net.png', 'BackEnd .Net Immesion')">
@@ -275,7 +281,7 @@
                     </div>
                     <h3><a href="https://github.com/Javier-Larroca/proyectoAngular-Tarjetas" target="_blank">ABM Tarjetas</a></h3>
                     <p>Proyecto realizado íntegramente como práctica. Alta, baja y modificación de tarjetas con conexión a base de datos.</p>
-                    <h6>Lenguajes: Angular, .NET y SQL</h6>
+                    <h6><span class="period-label">Tecnologías:</span> Angular, .NET y SQL</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -313,7 +319,7 @@
                     </div>
                     <h3><a href="https://github.com/Javier-Larroca/TPC_Larroca_Vasquez" target="_blank">Turnero para Clínica</a></h3>
                     <p>Asignación de turnos a pacientes vinculándolos según especialidad y médico seleccionado. Control de usuario con diferentes roles.</p>
-                    <h6>Lenguajes: C#, .NET y SQL</h6>
+                    <h6><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -330,7 +336,7 @@
                     </div>
                     <h3><a href="https://github.com/Javier-Larroca/carrito-web" target="_blank">Carrito Web</a></h3>
                     <p>Listado de productos, cargados desde base de datos SQL, agregados al carrito de compras mediante sesión de navegador.</p>
-                    <h6>Lenguajes: C#, .NET y SQL</h6>
+                    <h6><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
                   </div>
                 </div>
                 <p></p>
@@ -360,7 +366,7 @@
                     </div>
                     <h3><a href="https://github.com/Javier-Larroca/Tp-Winform-Larroca-Vasquez" target="_blank">Sistema de stock</a></h3>
                     <p>Sistema para control de stock de productos con alta, baja, modificación y listado de productos, categorías y marcas. Utilizando Programación orientada a objetos, con conexión a base de datos.</p>
-                    <h6>Lenguajes: C#, .NET y SQL</h6>
+                    <h6><span class="period-label">Tecnologías:</span> C#, .NET y SQL</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -380,7 +386,7 @@
                     </div>
                     <h3><a href="https://github.com/Javier-Larroca/LARA" target="_blank">LARA</a></h3>
                     <p>Sistema de control de usuarios y entrenamientos ideado para ser utilizado en un gimnasio. El mismo cuenta con alta, baja, modificación y listado de usuario y entrenamientos</p>
-                    <h6>Lenguajes: C++ y C</h6>
+                    <h6><span class="period-label">Tecnologías:</span> C++ y C</h6>
                   </div>
                 </div>
                 <div class="col-xs-10 col-sm-6 col-md-4 product">
@@ -406,7 +412,7 @@
                     </div>
                     <h3><a href="https://github.com/Javier-Larroca/Generala" target="_blank">Generala</a></h3>
                     <p>Juego generala de dos jugadores. Con cálculo de puntajes y turnos para cada jugador. Contiene interfaz gráfica y programación orientada a objetos.</p>
-                    <h6>Lenguajes: C++</h6>
+                    <h6><span class="period-label">Tecnologías:</span> C++</h6>
                   </div>
                 </div>
               </div>
@@ -433,6 +439,7 @@
     <!-- Conexiones -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/translations.js"></script>
     <script src="js/funciones.js"></script>
   </body>
 </html>
