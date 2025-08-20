@@ -119,73 +119,20 @@ p{
     display: block;
 }
 
-.logo {
+.logo-img {
     width: 4vw;
     height: 4vw;
     min-width: 50px;
     min-height: 50px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: contain;
+    border-radius: 12px;
     transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
-.logo:hover {
-    transform: scale(1.02);
-}
-
-.logo:hover .logo-inner {
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
-}
-
-.logo-inner {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #8a5a9e 0%, #3a5a7a 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    position: relative;
-    overflow: hidden;
-}
-
-.logo-inner::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.05) 50%, transparent 70%);
-    transform: rotate(45deg);
-    animation: shine 4s infinite;
-}
-
-@keyframes shine {
-    0% {
-        transform: translateX(-100%) translateY(-100%) rotate(45deg);
-    }
-    50% {
-        transform: translateX(100%) translateY(100%) rotate(45deg);
-    }
-    100% {
-        transform: translateX(-100%) translateY(-100%) rotate(45deg);
-    }
-}
-
-.logo-text {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 1.1em;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    position: relative;
-    letter-spacing: 0.5px;
+.logo-img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
 }
 
 .navigation ul {
