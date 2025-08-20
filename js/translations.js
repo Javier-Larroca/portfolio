@@ -69,22 +69,22 @@ const translations = {
         // Certificados
         "cert-webapi-title": "Web API .Net Core",
         "cert-webapi-institution": "Educación IT",
-        "cert-webapi-skills": "Desarrollo de APIs RESTful · Manejo de .NET Core · Serialización de datos y consumo de servicios · Seguridad en APIs · Testing de endpoints · Principios SOLID y buenas prácticas",
+        "cert-webapi-skills": "Aptitudes: Desarrollo de APIs RESTful · Manejo de .NET Core · Serialización de datos y consumo de servicios · Seguridad en APIs · Testing de endpoints · Principios SOLID y buenas prácticas",
         "cert-webapi-date": "Finalizado: 08/2025",
         
         "cert-accesibilidad-title": "Aportes para la construcción colectiva de la perspectiva de accesibilidad",
         "cert-accesibilidad-institution": "Universidad Tecnológica Nacional",
-        "cert-accesibilidad-skills": "Perspectiva de accesibilidad · Sensibilidad y empatía social · Inclusión laboral y educativa · Diseño universal · Trabajo colaborativo",
+        "cert-accesibilidad-skills": "Aptitudes: Perspectiva de accesibilidad · Sensibilidad y empatía social · Inclusión laboral y educativa · Diseño universal · Trabajo colaborativo",
         "cert-accesibilidad-date": "Finalizado: 10/2024",
         
         "cert-micaela-title": "Micaela TEC - Ciencia y tecnología hacia la igualdad",
         "cert-micaela-institution": "Universidad Tecnológica Nacional",
-        "cert-micaela-skills": "Perspectiva de género en ciencia y tecnología · Sensibilización en violencia de género · Compromiso con la igualdad",
+        "cert-micaela-skills": "Aptitudes: Perspectiva de género en ciencia y tecnología · Sensibilización en violencia de género · Compromiso con la igualdad",
         "cert-micaela-date": "Finalizado: 06/2024",
         
         "cert-backend-title": "BackEnd .Net Immersion",
         "cert-backend-institution": "MindHub LA",
-        "cert-backend-skills": "Programación Backend en .NET · Entity Framework y acceso a datos · Angular · Control de versiones con GIT",
+        "cert-backend-skills": "Aptitudes: Programación Backend en .NET · Entity Framework y acceso a datos · Angular · Control de versiones con GIT",
         "cert-backend-date": "Finalizado: 08/2021",
         
         // Proyectos
@@ -196,22 +196,22 @@ const translations = {
         // Certificates
         "cert-webapi-title": "Web API .Net Core",
         "cert-webapi-institution": "Educación IT",
-        "cert-webapi-skills": "RESTful API Development · .NET Core Management · Data Serialization and Service Consumption · API Security · Endpoint Testing · SOLID Principles and Best Practices",
+        "cert-webapi-skills": "Skills: RESTful API Development · .NET Core Management · Data Serialization and Service Consumption · API Security · Endpoint Testing · SOLID Principles and Best Practices",
         "cert-webapi-date": "Completed: 08/2025",
         
         "cert-accesibilidad-title": "Contributions to the collective construction of accessibility perspective",
         "cert-accesibilidad-institution": "National Technological University",
-        "cert-accesibilidad-skills": "Accessibility perspective · Social sensitivity and empathy · Labor and educational inclusion · Universal design · Collaborative work",
+        "cert-accesibilidad-skills": "Skills: Accessibility perspective · Social sensitivity and empathy · Labor and educational inclusion · Universal design · Collaborative work",
         "cert-accesibilidad-date": "Completed: 10/2024",
         
         "cert-micaela-title": "Micaela TEC - Science and technology towards equality",
         "cert-micaela-institution": "National Technological University",
-        "cert-micaela-skills": "Gender perspective in science and technology · Gender violence awareness · Commitment to equality",
+        "cert-micaela-skills": "Skills: Gender perspective in science and technology · Gender violence awareness · Commitment to equality",
         "cert-micaela-date": "Completed: 06/2024",
         
         "cert-backend-title": "BackEnd .Net Immersion",
         "cert-backend-institution": "MindHub LA",
-        "cert-backend-skills": ".NET Backend Programming · Entity Framework and Data Access · Angular · Version Control with GIT",
+        "cert-backend-skills": "Skills: .NET Backend Programming · Entity Framework and Data Access · Angular · Version Control with GIT",
         "cert-backend-date": "Completed: 08/2021",
         
         // Projects
