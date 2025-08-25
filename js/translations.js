@@ -67,6 +67,11 @@ const translations = {
         "studies-school-period": "Desde: 03/2010 - Hasta: 12/2016",
         
         // Certificados
+        "cert-go-title": "Go Esencial",
+        "cert-go-institution": "Linkedin Learning",
+        "cert-go-skills": "Aptitudes: Go · Condicionales · Ciclos · Lectura de archivos · Escritura de Archivos",
+        "cert-go-date": "Finalizado: 08/2025",
+
         "cert-webapi-title": "Web API .Net Core",
         "cert-webapi-institution": "Educación IT",
         "cert-webapi-skills": "Aptitudes: Desarrollo de APIs RESTful · Manejo de .NET Core · Serialización de datos y consumo de servicios · Seguridad en APIs · Testing de endpoints · Principios SOLID y buenas prácticas",
@@ -194,6 +199,11 @@ const translations = {
         "studies-school-period": "From: 03/2010 - To: 12/2016",
         
         // Certificates
+        "cert-go-title": "Go Esencial",
+        "cert-go-institution": "Linkedin Learning",
+        "cert-go-skills": "Skills: Go · Conditionals · Loops · Reading Files · Writing Files",
+        "cert-go-date": "Completed: 08/2025",
+
         "cert-webapi-title": "Web API .Net Core",
         "cert-webapi-institution": "Educación IT",
         "cert-webapi-skills": "Skills: RESTful API Development · .NET Core Management · Data Serialization and Service Consumption · API Security · Endpoint Testing · SOLID Principles and Best Practices",
