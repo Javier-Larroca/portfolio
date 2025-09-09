@@ -21,7 +21,7 @@
         <nav class="navigation">
           <ul id="nav-list">
             <li><a href="#" data-i18n="nav-about">¿Quién soy?</a></li>
-            <li><a href="#languajes" data-i18n="nav-languages">Lenguajes</a></li>
+            <li><a href="#languajes" data-i18n="nav-languages">Tecnologías</a></li>
             <li><a href="#experiencia" data-i18n="nav-experience">Experiencia</a></li>
             <li><a href="#estudios" data-i18n="nav-studies">Estudios</a></li>
             <li><a href="#certificados" data-i18n="nav-certificates">Certificados</a></li>
@@ -55,7 +55,7 @@
         </div>
         <section id="languajes" class="padding">
           <div class="container">
-            <h2 data-translate="section-languages">Lenguajes</h2>
+            <h2 data-translate="section-languages">Tecnologías</h2>
             <div class="lenguajes">
               <img src="img/lenguajes/c++.png" alt="C++">
               <img src="img/lenguajes/c.png" alt="C#">
@@ -167,6 +167,20 @@
                 <div class="carousel-item active">
                   <div class="certificado-item" data-cert="cert-go">
                     <div class="certificado-imagen">
+                      <img src="img/certificados/basesDeDatos.png" alt="Certificado Bases de Datos" 
+                      class="certificado-clickeable" onclick="abrirModal('img/certificados/basesDeDatos.png', 'Certificado Bases de Datos')">
+                    </div>
+                    <div class="certificado-info">
+                      <h4 data-translate="cert-bbdd-title">Bases de datos SQL</h4>
+                      <h6 data-translate="cert-bbddd-institution">Maxi Programa</h6>
+                      <p data-translate="cert-bbdd-skills">Aptitudes: <span class="aptitudes-contenido">SQL · T-SQL · Bases de datos relacionales · Diseño de bases de datos</span></p>
+                      <p data-translate="cert-bbdd-date">Finalizado: 09/2025</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="certificado-item" data-cert="cert-go">
+                    <div class="certificado-imagen">
                       <img src="img/certificados/goEsencial.png" alt="Certificado Go Esencial" 
                       class="certificado-clickeable" onclick="abrirModal('img/certificados/goEsencial.png', 'Certificado Go Esencial')">
                     </div>
@@ -251,6 +265,7 @@
                 <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="5" aria-label="Slide 6"></button>
               </div>
             </div>
           </div>

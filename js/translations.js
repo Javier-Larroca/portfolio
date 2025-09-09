@@ -3,7 +3,7 @@ const translations = {
     es: {
         // Navegación
         "nav-about": "¿Quién soy?",
-        "nav-languages": "Lenguajes",
+        "nav-languages": "Tecnologías",
         "nav-experience": "Experiencia",
         "nav-studies": "Estudios",
         "nav-certificates": "Certificados",
@@ -18,7 +18,7 @@ const translations = {
         "about-text-4": "Me considero una persona comprometida con el aprendizaje continuo y con la adopción de buenas prácticas en el desarrollo de software, siempre buscando crecer tanto en lo técnico como en lo humano en cada desafío que enfrento.",
         
         // Secciones
-        "section-languages": "Lenguajes",
+        "section-languages": "Tecnologías",
         "section-experience": "Experiencia",
         "section-studies": "Estudios",
         "section-certificates": "Certificados",
@@ -67,6 +67,11 @@ const translations = {
         "studies-school-period": "Desde: 03/2010 - Hasta: 12/2016",
         
         // Certificados
+        "cert-bbdd-title": "Bases de datos SQL",
+        "cert-bbdd-institution": "Maxi Programa",
+        "cert-bbdd-skills": "Skills: SQL · T-SQL · Bases de datos relacionales · Diseño de bases de datos",
+        "cert-bbdd-date": "Finalizado: 09/2025",
+
         "cert-go-title": "Go Esencial",
         "cert-go-institution": "Linkedin Learning",
         "cert-go-skills": "Aptitudes: Go · Condicionales · Ciclos · Lectura de archivos · Escritura de Archivos",
@@ -135,7 +140,7 @@ const translations = {
     en: {
         // Navigation
         "nav-about": "About Me",
-        "nav-languages": "Languages",
+        "nav-languages": "Technologies",
         "nav-experience": "Experience",
         "nav-studies": "Education",
         "nav-certificates": "Certificates",
@@ -150,7 +155,7 @@ const translations = {
         "about-text-4": "I consider myself a person committed to continuous learning and the adoption of good practices in software development, always seeking to grow both technically and humanly in every challenge I face.",
         
         // Sections
-        "section-languages": "Languages",
+        "section-languages": "Technologies",
         "section-experience": "Experience",
         "section-studies": "Education",
         "section-certificates": "Certificates",
@@ -199,6 +204,11 @@ const translations = {
         "studies-school-period": "From: 03/2010 - To: 12/2016",
         
         // Certificates
+        "cert-bbdd-title": "SQL Databases",
+        "cert-bbdd-institution": "Maxi Programa",
+        "cert-bbdd-skills": "Skills: SQL · T-SQL · Relational Databases · Database Design",
+        "cert-bbdd-date": "Completed: 09/2025",
+
         "cert-go-title": "Go Esencial",
         "cert-go-institution": "Linkedin Learning",
         "cert-go-skills": "Skills: Go · Conditionals · Loops · Reading Files · Writing Files",
