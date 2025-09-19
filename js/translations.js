@@ -25,6 +25,11 @@ const translations = {
         "section-projects": "Proyectos",
         
         // Experiencia laboral
+        "exp-atica-title": "Atica",
+        "exp-atica-role": "Desarrollador de software",
+        "exp-atica-desc-1": "Desarrollo y mantenimiento de aplicaciones web utilizando C#, .NET Framework (WebForms), SQL Server, y control de versiones con GI. Trabajo bajo metodologías ágiles (Scrum) utilizando herramientas de Jira.",
+        "exp-atica-period": "Desde: 09/2025 - Hasta: Actualidad",
+
         "exp-utn-title": "UTN - FRGP",
         "exp-utn-role": "Docente de Programación I / Ayudante de Programación III",
         "exp-utn-desc-1": "Docente en la Tecnicatura Universitaria en Programación, impartiendo contenidos de programación estructurada mediante diagramas de flujo y C++. Temas abordados: ciclos exactos e inexactos, estructuras condicionales, vectores, matrices, funciones y metodologías algorítmicas. Uso activo del Campus Virtual Moodle.",
@@ -162,6 +167,11 @@ const translations = {
         "section-projects": "Projects",
         
         // Work experience
+        "exp-atica-title": "Atica",
+        "exp-atica-role": "Software Developer",
+        "exp-atica-desc-1": "Development and maintenance of web applications using C#, .NET Framework (WebForms), SQL Server, and version control with Git. Worked under agile methodologies (Scrum) using Jira tools.",
+        "exp-atica-period": "From: 09/2025 - To: Present",
+
         "exp-utn-title": "UTN - FRGP",
         "exp-utn-role": "Programming I Teacher / Programming III Assistant",
         "exp-utn-desc-1": "Teacher in the University Technical Degree in Programming, teaching structured programming content through flowcharts and C++. Topics covered: exact and inexact loops, conditional structures, vectors, matrices, functions and algorithmic methodologies. Active use of Moodle Virtual Campus.",
