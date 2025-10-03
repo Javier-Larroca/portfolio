@@ -21,8 +21,8 @@ jQuery('document').ready(function($){
     // Inicializar el carrusel de certificados
     inicializarCarouselCertificados();
     
-    // Inicializar el sistema de idiomas
-    inicializarSistemaIdiomas();
+    // Inicializar el sistema de i18n
+    inicializarI18n();
 });
 
 // Funciones para el modal de certificados
@@ -100,88 +100,56 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Sistema de cambio de idioma
-let currentLanguage = 'es';
+// Inicialización del sistema i18n
+async function inicializarI18n() {
+    try {
+        // Verificar que el I18nManager esté disponible
+        if (typeof window.i18n === 'undefined') {
+            console.error('I18nManager no está disponible. Asegúrate de cargar i18n-manager.js antes que funciones.js');
+            return;
+        }
+        
+        // Inicializar el sistema de i18n
+        await window.i18n.init();
+        console.log('Sistema i18n inicializado correctamente');
+    } catch (error) {
+        console.error('Error al inicializar el sistema i18n:', error);
+        // Fallback al sistema básico
+        console.log('Usando sistema de traducciones fallback básico');
+        inicializarSistemaFallback();
+    }
+}
 
-function inicializarSistemaIdiomas() {
+// Sistema de fallback para compatibilidad
+function inicializarSistemaFallback() {
     const languageToggle = document.getElementById('language-toggle');
     if (languageToggle) {
-        languageToggle.addEventListener('click', toggleLanguage);
+        languageToggle.addEventListener('click', toggleLanguageFallback);
     }
     
     // Cargar idioma guardado en localStorage
     const savedLanguage = localStorage.getItem('portfolio-language');
-    if (savedLanguage && savedLanguage !== currentLanguage) {
-        currentLanguage = savedLanguage;
-        changeLanguage(currentLanguage);
+    if (savedLanguage && savedLanguage !== 'es') {
+        changeLanguageFallback(savedLanguage);
     }
 }
 
-function toggleLanguage() {
-    currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
-    changeLanguage(currentLanguage);
-    localStorage.setItem('portfolio-language', currentLanguage);
+function toggleLanguageFallback() {
+    const currentLang = localStorage.getItem('portfolio-language') || 'es';
+    const newLang = currentLang === 'es' ? 'en' : 'es';
+    changeLanguageFallback(newLang);
+    localStorage.setItem('portfolio-language', newLang);
 }
 
-function changeLanguage(lang) {
+function changeLanguageFallback(lang) {
     // Actualizar botón
     const currentLangSpan = document.querySelector('.current-lang');
     if (currentLangSpan) {
         currentLangSpan.textContent = lang.toUpperCase();
     }
     
-    // Traducir todos los elementos con data-translate
-    translateElements(lang);
-}
-
-function translateElements(lang) {
-    // Obtener todos los elementos con data-translate
-    const elements = document.querySelectorAll('[data-translate]');
-    
-    elements.forEach(element => {
-        const key = element.getAttribute('data-translate');
-        if (translations[lang] && translations[lang][key]) {
-            const translation = translations[lang][key];
-            
-            // Si el elemento contiene spans, manejar de forma especial
-            const spans = element.querySelectorAll('span');
-            if (spans.length > 0) {
-                // Si la traducción contiene HTML, usarla directamente
-                if (translation.includes('<span')) {
-                    element.innerHTML = translation;
-                } else {
-                    // Si no contiene HTML, preservar los spans existentes
-                    // y reemplazar solo el texto exterior
-                    const spanClasses = Array.from(spans).map(span => span.className);
-                    let newHTML = translation;
-                    
-                    // Reemplazar las etiquetas de período con spans
-                    if (translation.includes(translations[lang]['from'])) {
-                        newHTML = newHTML.replace(
-                            translations[lang]['from'], 
-                            `<span class="period-label">${translations[lang]['from']}</span>`
-                        );
-                    }
-                    if (translation.includes(translations[lang]['to'])) {
-                        newHTML = newHTML.replace(
-                            translations[lang]['to'], 
-                            `<span class="period-label">${translations[lang]['to']}</span>`
-                        );
-                    }
-                    if (translation.includes(translations[lang]['languages'])) {
-                        newHTML = newHTML.replace(
-                            translations[lang]['languages'], 
-                            `<span class="period-label">${translations[lang]['languages']}</span>`
-                        );
-                    }
-                    
-                    element.innerHTML = newHTML;
-                }
-            } else {
-                // Para elementos simples, usar textContent
-                element.textContent = translation;
-            }
-        }
-    });
+    // En el sistema de fallback, solo actualizamos el botón
+    // Las traducciones se manejan a través del sistema i18n principal
+    console.log(`Fallback: Idioma cambiado a ${lang}`);
 }
 

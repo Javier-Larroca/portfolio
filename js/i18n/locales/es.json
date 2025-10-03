@@ -1,0 +1,142 @@
+{
+  "nav-about": "¿Quién soy?",
+  "nav-languages": "Tecnologías",
+  "nav-experience": "Experiencia",
+  "nav-studies": "Estudios",
+  "nav-certificates": "Certificados",
+  "nav-projects": "Proyectos",
+  "nav-contact": "Contacto",
+  
+  "hello-world": "¡Hola, mundo!",
+  "about-text-1": "Soy Javier Agustín Larroca, egresado de la Tecnicatura Universitaria en Programación de la Universidad Tecnológica Nacional.",
+  "about-text-2": "Desde 2021 me desempeño como desarrollador fullstack, especializado en backend con C# .NET, bases de datos relacionales mediante SQL y desarrollo de interfaces web utilizando Angular.",
+  "about-text-3": "Además, soy docente de Programación en la UTN, Facultad Regional General Pacheco. Comencé como ayudante mientras aún era estudiante, y esa experiencia me llevó a descubrir una nueva pasión: la docencia.",
+  "about-text-4": "Me considero una persona comprometida con el aprendizaje continuo y con la adopción de buenas prácticas en el desarrollo de software, siempre buscando crecer tanto en lo técnico como en lo humano en cada desafío que enfrento.",
+  
+  "section-languages": "Tecnologías",
+  "section-experience": "Experiencia",
+  "section-studies": "Estudios",
+  "section-certificates": "Certificados",
+  "section-projects": "Proyectos",
+  
+  "exp-atica-title": "Atica",
+  "exp-atica-role": "Desarrollador de software",
+  "exp-atica-desc-1": "Desarrollo y mantenimiento de aplicaciones web utilizando C#, .NET Framework (WebForms), SQL Server, y control de versiones con Git. Trabajo bajo metodologías ágiles (Scrum) utilizando herramientas de Jira.",
+  "exp-atica-period": "Desde: 09/2025 - Hasta: Actualidad",
+
+  "exp-utn-title": "UTN - FRGP",
+  "exp-utn-role": "Docente de Programación I / Ayudante de Programación III",
+  "exp-utn-desc-1": "Docente en la Tecnicatura Universitaria en Programación, impartiendo contenidos de programación estructurada mediante diagramas de flujo y C++. Temas abordados: ciclos exactos e inexactos, estructuras condicionales, vectores, matrices, funciones y metodologías algorítmicas. Uso activo del Campus Virtual Moodle.",
+  "exp-utn-period": "Desde: 03/2021 - Hasta: Actualidad",
+  
+  "exp-advertmind-title": "Advertmind",
+  "exp-advertmind-role": "Desarrollador de software en I+D",
+  "exp-advertmind-desc-1": "Desarrollo de aplicaciones web y de escritorio utilizando C# .NET, Angular con TypeScript, SQL Server, y control de versiones con SVN. Trabajo bajo metodologías ágiles (Scrum).",
+  "exp-advertmind-desc-2": "Formé parte del departamento de I+D, participando activamente en la mejora continua del producto mediante el desarrollo de nuevas funcionalidades, resolución de incidencias y adaptaciones a nuevos requerimientos de clientes.",
+  "exp-advertmind-period": "Desde: 05/2023 - Hasta: 05/2025",
+  
+  "exp-recursiva-title": "Recursiva",
+  "exp-recursiva-role": "Desarrollador de software Full Stack",
+  "exp-recursiva-desc-1": "Desarrollo de aplicaciones web utilizando TypeScript, C# y SQL Server con frameworks como .NET y Angular.",
+  "exp-recursiva-desc-2": "Participé en el desarrollo desde cero del portal web para GDM Seeds, adaptado a medida para sus clientes, abarcando desde el backend hasta la interfaz de usuario.",
+  "exp-recursiva-period": "Desde: 02/2022 - Hasta: 04/2023",
+  
+  "exp-practia-title": "Practia Global",
+  "exp-practia-role": "Desarrollador de software Full Stack",
+  "exp-practia-desc-1": "Desarrollo de aplicaciones web con TypeScript, C# y SQL Server, utilizando .NET Core con Entity Framework y Angular para el frontend.",
+  "exp-practia-desc-2": "Trabajé en el proyecto Y-Rupe para Y-Tec, abordando el modelado de base de datos, desarrollo de API y construcción de interfaces con plantillas provistas por el cliente.",
+  "exp-practia-period": "Desde: 07/2021 - Hasta: 02/2022",
+  
+  "exp-admin-title": "MSD Argentina, Smith Molina, Vectatio, Vialme",
+  "exp-admin-role": "Administrativo",
+  "exp-admin-desc-1": "Desde mediados de 2016, inicié como pasante realizando tareas administrativas en talleres, luego en compras y logística. Fui encargado de compras y también administrativo de logística, monitoreando la cadena de frío en la distribución local.",
+  "exp-admin-period": "Desde: 05/2016 - Hasta: 07/2021",
+  
+  "studies-utnba-title": "UTN - BA",
+  "studies-utnba-degree": "Licenciatura en Tecnología Educativa",
+  "studies-utnba-period": "Desde: 08/2025 - Hasta: 12/2026",
+  
+  "studies-utn-title": "UTN - FRGP",
+  "studies-utn-degree": "Tecnicatura Universitaria en Programación",
+  "studies-utn-period": "Desde: 02/2020 - Hasta: 12/2021",
+  
+  "studies-school-title": "E.E.S.T.Nº 3",
+  "studies-school-degree": "Tecnicatura personal y profesional en informática",
+  "studies-school-period": "Desde: 03/2010 - Hasta: 12/2016",
+  
+  "cert-bbdd-title": "Bases de datos SQL",
+  "cert-bbdd-institution": "Maxi Programa",
+  "cert-bbdd-skills": "Aptitudes: SQL · T-SQL · Bases de datos relacionales · Diseño de bases de datos",
+  "cert-bbdd-date": "Finalizado: 09/2025",
+
+  "cert-go-title": "Go Esencial",
+  "cert-go-institution": "Linkedin Learning",
+  "cert-go-skills": "Aptitudes: Go · Condicionales · Ciclos · Lectura de archivos · Escritura de Archivos",
+  "cert-go-date": "Finalizado: 08/2025",
+
+  "cert-webapi-title": "Web API .Net Core",
+  "cert-webapi-institution": "Educación IT",
+  "cert-webapi-skills": "Aptitudes: Desarrollo de APIs RESTful · Manejo de .NET Core · Serialización de datos y consumo de servicios · Seguridad en APIs · Testing de endpoints · Principios SOLID y buenas prácticas",
+  "cert-webapi-date": "Finalizado: 08/2025",
+  
+  "cert-accesibilidad-title": "Aportes para la construcción colectiva de la perspectiva de accesibilidad",
+  "cert-accesibilidad-institution": "Universidad Tecnológica Nacional",
+  "cert-accesibilidad-skills": "Aptitudes: Perspectiva de accesibilidad · Sensibilidad y empatía social · Inclusión laboral y educativa · Diseño universal · Trabajo colaborativo",
+  "cert-accesibilidad-date": "Finalizado: 10/2024",
+  
+  "cert-micaela-title": "Micaela TEC - Ciencia y tecnología hacia la igualdad",
+  "cert-micaela-institution": "Universidad Tecnológica Nacional",
+  "cert-micaela-skills": "Aptitudes: Perspectiva de género en ciencia y tecnología · Sensibilización en violencia de género · Compromiso con la igualdad",
+  "cert-micaela-date": "Finalizado: 06/2024",
+  
+  "cert-backend-title": "BackEnd .Net Immersion",
+  "cert-backend-institution": "MindHub LA",
+  "cert-backend-skills": "Aptitudes: Programación Backend en .NET · Entity Framework y acceso a datos · Angular · Control de versiones con GIT",
+  "cert-backend-date": "Finalizado: 08/2021",
+  
+  "project-tarjetas-title": "ABM Tarjetas",
+  "project-tarjetas-desc": "Proyecto realizado íntegramente como práctica. Alta, baja y modificación de tarjetas con conexión a base de datos.",
+  "project-tarjetas-tech": "Tecnologías: Angular, .NET y SQL",
+  
+  "project-clinica-title": "Turnero para Clínica",
+  "project-clinica-desc": "Asignación de turnos a pacientes vinculándolos según especialidad y médico seleccionado. Control de usuario con diferentes roles.",
+  "project-clinica-tech": "Tecnologías: C#, .NET y SQL",
+  
+  "project-carrito-title": "Carrito Web",
+  "project-carrito-desc": "Listado de productos, cargados desde base de datos SQL, agregados al carrito de compras mediante sesión de navegador.",
+  "project-carrito-tech": "Tecnologías: C#, .NET y SQL",
+  
+  "project-catalogador-title": "Sistema de stock",
+  "project-catalogador-desc": "Sistema para control de stock de productos con alta, baja, modificación y listado de productos, categorías y marcas. Utilizando Programación orientada a objetos, con conexión a base de datos.",
+  "project-catalogador-tech": "Tecnologías: C#, .NET y SQL",
+  
+  "project-lara-title": "LARA",
+  "project-lara-desc": "Sistema de control de usuarios y entrenamientos ideado para ser utilizado en un gimnasio. El mismo cuenta con alta, baja, modificación y listado de usuario y entrenamientos",
+  "project-lara-tech": "Tecnologías: C++ y C",
+  
+  "project-generala-title": "Generala",
+  "project-generala-desc": "Juego generala de dos jugadores. Con cálculo de puntajes y turnos para cada jugador. Contiene interfaz gráfica y programación orientada a objetos.",
+  "project-generala-tech": "Tecnologías: C++",
+  
+  "footer-contact": "Contacto: Javier-larroca@hotmail.com",
+  "download-cv": "Descargar CV",
+  "footer-copyright": "Copyright ©2025 Javier Larroca.",
+  
+  "skills": "Aptitudes:",
+  "languages": "Tecnologías:",
+  "from": "Desde:",
+  "to": "Hasta:",
+  "current": "Actualidad",
+  "previous": "Anterior",
+  "next": "Siguiente",
+  
+  "tech-cpp": "C++",
+  "tech-csharp": "C#",
+  "tech-net-framework": ".NET Framework",
+  "tech-net-core": ".NET Core",
+  "tech-net": ".NET",
+  "tech-sql": "SQL Server",
+  "tech-angular": "Angular",
+  "tech-github": "GitHub",
+  "tech-azure-devops": "Azure DevOps"
+}
