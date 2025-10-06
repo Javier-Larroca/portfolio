@@ -411,14 +411,11 @@ class I18nManager {
      * @param {string} translation - Texto traducido
      */
     updateElement(element, translation) {
-        // Verificar si el elemento tiene spans internos
-        const spans = element.querySelectorAll('span');
-        
-        if (spans.length > 0) {
-            // Manejar elementos con estructura HTML interna
-            this.updateElementWithSpans(element, translation);
+        // Si la traducción contiene HTML, usar innerHTML
+        if (translation.includes('<span') || translation.includes('<')) {
+            element.innerHTML = translation;
         } else {
-            // Elemento simple
+            // Elemento simple sin HTML
             element.textContent = translation;
         }
     }
