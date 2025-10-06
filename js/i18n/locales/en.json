@@ -66,33 +66,33 @@
   
   "cert-bbdd-title": "SQL Databases",
   "cert-bbdd-institution": "Maxi Programa",
-  "cert-bbdd-skills": "Skills: <span class=\"aptitudes-contenido\">SQL · T-SQL · Relational Databases · Database Design</span>",
-  "cert-bbdd-date": "Completed: <span class=\"aptitudes-contenido\">09/2025</span>",
+  "cert-bbdd-skills": "<span class=\"aptitudes-contenido\">SQL · T-SQL · Relational Databases · Database Design</span>",
+  "cert-bbdd-date": "09/2025",
 
   "cert-go-title": "Go Esencial",
   "cert-go-institution": "Linkedin Learning",
-  "cert-go-skills": "Skills: <span class=\"aptitudes-contenido\">Go · Conditionals · Loops · Reading Files · Writing Files</span>",
-  "cert-go-date": "Completed: <span class=\"aptitudes-contenido\">08/2025</span>",
+  "cert-go-skills": "<span class=\"aptitudes-contenido\">Go · Conditionals · Loops · Reading Files · Writing Files</span>",
+  "cert-go-date": "08/2025",
 
   "cert-webapi-title": "Web API .Net Core",
   "cert-webapi-institution": "Educación IT",
-  "cert-webapi-skills": "Skills: <span class=\"aptitudes-contenido\">RESTful API Development · .NET Core Management · Data Serialization and Service Consumption · API Security · Endpoint Testing · SOLID Principles and Best Practices</span>",
-  "cert-webapi-date": "Completed: <span class=\"aptitudes-contenido\">08/2025</span>",
+  "cert-webapi-skills": "<span class=\"aptitudes-contenido\">RESTful API Development · .NET Core Management · Data Serialization and Service Consumption · API Security · Endpoint Testing · SOLID Principles and Best Practices</span>",
+  "cert-webapi-date": "08/2025",
   
   "cert-accesibilidad-title": "Contributions to the collective construction of accessibility perspective",
   "cert-accesibilidad-institution": "National Technological University",
-  "cert-accesibilidad-skills": "Skills: <span class=\"aptitudes-contenido\">Accessibility perspective · Social sensitivity and empathy · Labor and educational inclusion · Universal design · Collaborative work</span>",
-  "cert-accesibilidad-date": "Completed: <span class=\"aptitudes-contenido\">10/2024</span>",
+  "cert-accesibilidad-skills": "<span class=\"aptitudes-contenido\">Accessibility perspective · Social sensitivity and empathy · Labor and educational inclusion · Universal design · Collaborative work</span>",
+  "cert-accesibilidad-date": "10/2024",
   
   "cert-micaela-title": "Micaela TEC - Science and technology towards equality",
   "cert-micaela-institution": "National Technological University",
-  "cert-micaela-skills": "Skills: <span class=\"aptitudes-contenido\">Gender perspective in science and technology · Gender violence awareness · Commitment to equality</span>",
-  "cert-micaela-date": "Completed: <span class=\"aptitudes-contenido\">06/2024</span>",
+  "cert-micaela-skills": "<span class=\"aptitudes-contenido\">Gender perspective in science and technology · Gender violence awareness · Commitment to equality</span>",
+  "cert-micaela-date": "06/2024",
   
   "cert-backend-title": "BackEnd .Net Immersion",
   "cert-backend-institution": "MindHub LA",
-  "cert-backend-skills": "Skills: <span class=\"aptitudes-contenido\">.NET Backend Programming · Entity Framework and Data Access · Angular · Version Control with GIT</span>",
-  "cert-backend-date": "Completed: <span class=\"aptitudes-contenido\">08/2021</span>",
+  "cert-backend-skills": "<span class=\"aptitudes-contenido\">.NET Backend Programming · Entity Framework and Data Access · Angular · Version Control with GIT</span>",
+  "cert-backend-date": "08/2021",
   
   "project-tarjetas-title": "Cards CRUD",
   "project-tarjetas-desc": "Project entirely developed as practice. Create, read, update and delete cards with database connection.",
@@ -129,6 +129,7 @@
   "current": "Current",
   "previous": "Previous",
   "next": "Next",
+  "completed": "Completed:",
   
   "tech-cpp": "C++",
   "tech-csharp": "C#",
